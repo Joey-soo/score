@@ -9,6 +9,17 @@ Original file is located at
 
 score = input().split()
 sum = 0
+countF = 0
+max , min = 0,100
 for p in score:
+   if int(p) <60:
+    countF += 1
+   if int(i) > max:
+    max = i
+
+  if int(i) < min:
+    min = i
   sum += int(p)
 print(sum//len(score))
+print(countF)
+print(max,min)
