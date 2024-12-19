@@ -13,3 +13,12 @@ for i in score:
   if int(i) <60:
     countF += 1
 print(countF)
+
+max , min = 0,100
+for i in score:
+  if int(i) > max:
+    max = i
+
+  if int(i) < min:
+    min = i
+print(max,min)
