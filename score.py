@@ -8,7 +8,7 @@ Original file is located at
 """
 
 score = input().split()
-countF = 0
-for i in score:
-  countF += int(i)
-print(countF//len(score))
+sum = 0
+for p in score:
+  sum += int(p)
+print(sum//len(score))
